@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Tester-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -199,4 +200,8 @@ Wire Wire Line
 	7300 2550 7600 2550
 Wire Wire Line
 	7550 3150 7600 3150
+Text Label 7350 7500 0    60   ~ 0
+ApotheonPwnxorProofOfConcept
+Text Label 8150 7650 0    60   ~ 0
+20170208
 $EndSCHEMATC
