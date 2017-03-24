@@ -1,0 +1,9 @@
+The chip for the final board is:
+
+AT90USB1286
+
+128K program flash
+8K sram
+4096b data EEprom
+USB device interface.
+64pin TQFP or VQFN package.
