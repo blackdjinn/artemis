@@ -1,0 +1,5 @@
+.include "m32u4def.inc"
+start:   ldi r16,0xFF         ; Load all 1s into register
+         out DDRD,r16         ; Write that to DDR D to make all output
+         out PORTD,r16        ; Put all pins on port D high
+loop:    jmp loop             ; Loop forever

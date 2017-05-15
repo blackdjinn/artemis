@@ -18,3 +18,8 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# For AVR assembly
+*.hex
+*.obj
+*.cof
