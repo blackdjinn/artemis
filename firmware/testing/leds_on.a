@@ -1,3 +1,7 @@
+;
+; Testbed firmware. Should not be used on... anything else.
+; turn all 4 LEDs on and loop forever
+;
 .include "m32u4def.inc"
 .device ATmega32
 
